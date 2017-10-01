@@ -1,13 +1,13 @@
 from discord.ext import commands
 from discord.ext.commands import when_mentioned_or
-
+from discord import Game
 from comet.logging import LoggingClass
 
 
 class Comet(LoggingClass, commands.Bot):
     def __init__(self, cfg):
         # Setup.
-        commands.Bot.__init__(self, command_prefix=when_mentioned_or('!'))
+        commands.Bot.__init__(self, command_prefix=when_mentioned_or(cfg['discord']['prefix']))
         LoggingClass.__init__(self)
 
         self.cfg = cfg
