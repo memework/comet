@@ -1,6 +1,5 @@
 from discord.ext import commands
 from discord.ext.commands import when_mentioned_or
-from discord import Game
 from comet.logging import LoggingClass
 
 
