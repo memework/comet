@@ -8,15 +8,15 @@ with open('config.yml', 'r') as config_file:
     except yaml.YAMLError as exc:
         print(exc)
 
-client = discord.Client()
+class Client(discord.Client):
+    async def on_ready(self):
+        print('Ready!')
 
-@client.event
-async def on_ready():
-    print('Ready!')
+    async def on_message(self, message):
+        if message.author == self.user:
+            return
+        if message.content.startswith('!ping'):
+            await client.send_message(message.channel, 'Pong!')
 
-@client.event
-async def on_message(message):
-    if message.content.startswith('!ping'):
-        await client.send_message(message.channel, 'Pong!')
-
+client = Client()
 client.run(cfg['discord']['token'])
