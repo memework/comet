@@ -16,7 +16,7 @@ class Client(discord.Client):
         if message.author == self.user:
             return
         if message.content.startswith('!ping'):
-            await client.send_message(message.channel, 'Pong!')
+            await client.send(message.channel, 'Pong!')
 
 client = Client()
 client.run(cfg['discord']['token'])

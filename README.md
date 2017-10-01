@@ -13,11 +13,11 @@ A general purpose Discord Bot aimed at replacing functionality of most other pop
 - [ ] Database Stuff
 - [ ] Admin commands (eval, game, status, name, avatar)
 
-- More to come (see [planned commands list](https://docs.google.com/spreadsheets/d/10PA07ATN6ZO6O4RSdh4zpa7_chngZEGkFiXRifFSJcQ/edit?usp=sharing))
+More to come (see [planned commands list](https://docs.google.com/spreadsheets/d/10PA07ATN6ZO6O4RSdh4zpa7_chngZEGkFiXRifFSJcQ/edit?usp=sharing))
 
 
 ### Setting up
 
-Just clone the repo, do the install thing, then run bot.py
+Just clone the repo, do the install thing, then run bot.py.
 quite simple huh?
-not for long.
+not for long...
