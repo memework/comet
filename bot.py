@@ -1,10 +1,12 @@
 import discord
 import asyncio
-import config
 import ruamel.yaml as yaml
 
 with open('config.yml', 'r') as config_file:
-    cfg = YAML(typ='safe').load(config_file)
+    try:
+        cfg = yaml.safe_load(config_file)
+    except yaml.YAMLError as exc:
+        print(exc)
 
 client = discord.Client()
 
@@ -15,6 +17,6 @@ async def on_ready():
 @client.event
 async def on_message(message):
     if message.content.startswith('!ping'):
-        tmp = await client.send_message(message.channel, 'Pong!')
+        await client.send_message(message.channel, 'Pong!')
 
-client.run(cfg.discord.token)
+client.run(cfg['discord']['token'])

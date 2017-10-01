@@ -4,3 +4,4 @@ chardet==3.0.4
 discord.py==0.16.11
 multidict==3.2.0
 websockets==3.4
+ruamel.yaml>=0.15
