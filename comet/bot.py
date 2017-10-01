@@ -9,7 +9,8 @@ class Comet(LoggingClass, commands.Bot):
         commands.Bot.__init__(self, command_prefix=when_mentioned_or(cfg['discord']['prefix']))
         LoggingClass.__init__(self)
 
-        self.cfg = cfg
+        self.cfg = cfg	
+
 
     async def on_ready(self):
         # Ready!
