@@ -19,7 +19,7 @@ class Core:
 			raise Exception('Invalid yaml, wtf!')
 		except FileNotFoundError:
 			print("file not found, creating new plugin config!")
-			self.plugins = {}
+			self.plugins = []
 			clark.save(self.plugins, "config/plugins.yml")
 		for i in self.plugins:
 			try:
