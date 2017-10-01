@@ -6,13 +6,13 @@ A general purpose Discord Bot aimed at replacing functionality of most other pop
 ### The Roadmap
 
 ##### The basics - In progress
-- [-] Basic Ping
+- [x] Basic Ping
 - [ ] Do the ext.commands thing
 - [ ] Plugins system
 - [ ] Meta commands (ping, about, help, etc.)
 - [ ] Database Stuff
 - [ ] Admin commands (eval, game, status, name, avatar)
-- ... More to come
+- More to come
 
 ### Setting up
 
