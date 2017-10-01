@@ -8,7 +8,7 @@ A general purpose Discord Bot aimed at replacing functionality of most other pop
 ##### The basics - WIP
 - [x] Basic Ping
 - [x] Do the ext.commands thing
-- [ ] Plugins system
+- [x] Plugins system
 - [ ] Meta commands (ping, about, help, etc.)
 - [ ] Database Stuff
 - [ ] Admin commands (eval, game, status, name, avatar)
