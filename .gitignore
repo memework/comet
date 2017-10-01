@@ -106,3 +106,6 @@ venv.bak/
 # config
 config.yaml
 config.yml
+
+# Adryd is an idiot
+.DS_Store
