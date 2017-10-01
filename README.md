@@ -7,7 +7,7 @@ A general purpose Discord Bot aimed at replacing functionality of most other pop
 
 ##### The basics - WIP
 - [x] Basic Ping
-- [ ] Do the ext.commands thing
+- [x] Do the ext.commands thing
 - [ ] Plugins system
 - [ ] Meta commands (ping, about, help, etc.)
 - [ ] Database Stuff
