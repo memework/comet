@@ -17,7 +17,7 @@ More to come (see [planned commands list](https://docs.google.com/spreadsheets/d
 
 
 ### Setting up
-
-Just clone the repo, do the install thing, then run bot.py.
-quite simple huh?
-not for long...
+To install this bot, just clone the repo and run the following:
+`pip3.5 install -r requirements.txt`
+Afterwords, edit config-example.yml to your hearts content and save it as config.yml, then do
+`python3.5 launcher.py` and enjoy!
