@@ -24,4 +24,3 @@ class Comet(LoggingClass, commands.Bot):
         # Invoke commands.
         ctx = await self.get_context(message)
         await self.invoke(ctx)
-
